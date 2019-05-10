@@ -9,7 +9,7 @@ function graph {
   height="$1"; shift
 
   echo "$@" | awk -v height="$height" 'BEGIN {
-    bar = ".oO"
+#    bar = ".oO"
     bar = "▁▂▃▄▅▆▇█"
     barlen = length(bar)
   }
